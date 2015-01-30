@@ -5,8 +5,8 @@ import flixel.FlxState;
 import openfl.display.Sprite;
 import openfl.events.Event;
 import openfl.Lib;
-import swagEngine.interSwag.MainMenu;
-import swagEngine.swagHandler.Settings;
+import intoTheHat.interSwag.Intro;
+import intoTheHat.swagHandler.Settings;
 
 
 /**
@@ -16,7 +16,7 @@ import swagEngine.swagHandler.Settings;
 
 class Main extends Sprite 
 {
-	private var initialState:Class<FlxState> = MainMenu;
+	private var initialState:Class<FlxState> = Intro;
 	private var gameWidth:Int = Settings.gameWidth;
 	private var gameHeight:Int = Settings.gameHeight;
 	private var stageWidth:Int;
@@ -50,6 +50,10 @@ class Main extends Sprite
 		
 		setupGame();
 	}
+	
+	/**
+	 * Initializes the game, putting it on the screen.
+	 */
 	
 	private function setupGame()
 	{

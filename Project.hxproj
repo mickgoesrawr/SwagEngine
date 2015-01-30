@@ -16,25 +16,26 @@
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
-    <class path="C:\cygdrive\c\HaxeToolkit\haxe\lib\flixel-addons\git" />
-    <class path="C:\cygdrive\c\HaxeToolkit\haxe\lib\openfl-tiled-flixel\git" />
-    <class path="C:\cygdrive\c\HaxeToolkit\haxe\lib\openfl-tiled\git" />
-    <class path="C:\Development\GitHub\openfl" />
-    <class path="C:\cygdrive\c\HaxeToolkit\haxe\lib\flixel\git" />
-    <class path="C:\cygdrive\c\HaxeToolkit\haxe\lib\lime\2,0,5" />
-    <class path="C:\cygdrive\c\HaxeToolkit\haxe\lib\svg\1,0,8" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\flixel-addons\git" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\openfl-tiled-flixel\git" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\openfl-tiled\git" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\openfl\2,2,3" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\flixel\git" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\lime\2,0,5" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\svg\git" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\actuate\1,8,1" />
     <class path="source" />
-    <class path="C:\cygdrive\c\HaxeToolkit\haxe\lib\lime\2,0,5\legacy" />
+    <class path="E:\Development\HaxeToolkit\haxe\lib\lime\2,0,5\legacy" />
     <class path="export\windows\neko\haxe" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="flixel-addons=1.1.0&#xA;openfl-tiled-flixel=0.0.5&#xA;openfl-tiled=0.4.2&#xA;openfl=2.1.7&#xA;flixel=3.3.6&#xA;lime=2.0.5&#xA;svg=1.0.8&#xA;FLX_NO_FOCUS_LOST_SCREEN&#xA;tools=2.0.5&#xA;lime-legacy&#xA;NAPE_NO_INLINE&#xA;FLX_NO_DEBUG&#xA;no-compilation&#xA;NAPE_RELEASE_BUILD&#xA;native&#xA;lime-native&#xA;openfl-native&#xA;FLX_NO_NATIVE_CURSOR&#xA;windows&#xA;desktop" />
+    <option directives="flixel-addons=1.1.0&#xA;openfl-tiled-flixel=0.0.5&#xA;openfl-tiled=0.4.2&#xA;openfl=2.2.3&#xA;flixel=3.3.6&#xA;lime=2.0.5&#xA;svg&#xA;actuate=1.8.1&#xA;FLX_NO_FOCUS_LOST_SCREEN&#xA;tools=2.0.5&#xA;lime-legacy&#xA;NAPE_NO_INLINE&#xA;no-compilation&#xA;native&#xA;lime-native&#xA;openfl-native&#xA;FLX_NO_NATIVE_CURSOR&#xA;windows&#xA;desktop" />
     <option flashStrict="False" />
     <option noInlineOnDebug="False" />
     <option mainClass="ApplicationMain" />
     <option enabledebug="False" />
-    <option additional="--remap flash:openfl&#xA;--macro flixel.system.macros.FlxConditionals.run()&#xA;-dce full&#xA;#--macro keep(&quot;Main&quot;)" />
+    <option additional="--remap flash:openfl&#xA;--macro flixel.system.macros.FlxConditionals.run()&#xA;-dce full&#xA;#--macro keep(&quot;Main&quot;)&#xA;-debug " />
   </build>
   <!-- haxelib libraries -->
   <haxelib>

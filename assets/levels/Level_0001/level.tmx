@@ -36,6 +36,12 @@
  <tileset firstgid="91" name="lightbowl" tilewidth="48" tileheight="72">
   <image source="lightbowl.png" trans="ff00ff" width="48" height="72"/>
  </tileset>
+ <tileset firstgid="92" name="wizzard" tilewidth="108" tileheight="120">
+  <image source="wizzard.png" trans="ff00ff" width="108" height="120"/>
+ </tileset>
+ <tileset firstgid="93" name="final door" tilewidth="96" tileheight="192">
+  <image source="final door.png" trans="ff00ff" width="96" height="192"/>
+ </tileset>
  <imagelayer name="Background_image">
   <image source="background.png"/>
  </imagelayer>
@@ -69,6 +75,7 @@
   <object type="heart" gid="84" x="9248" y="592"/>
   <object type="heart" gid="84" x="9584" y="376"/>
   <object type="heart" gid="84" x="7920" y="576"/>
+  <object type="heart" gid="84" x="6640" y="160"/>
  </objectgroup>
  <layer name="Background" width="384" height="32">
   <data encoding="csv">
@@ -107,7 +114,7 @@
 </data>
  </layer>
  <objectgroup name="Exits">
-  <object name="level_exit" type="exit" gid="87" x="11424" y="608" width="96" height="192"/>
+  <object name="level_exit" type="exit" gid="93" x="11424" y="608" width="96" height="192"/>
  </objectgroup>
  <objectgroup name="Portals">
   <object name="p0" type="p1" gid="87" x="5088" y="832" width="96" height="192"/>
@@ -465,6 +472,12 @@
   <object type="spider" gid="88" x="1840" y="832"/>
   <object type="spider" gid="88" x="6056" y="320"/>
   <object type="spider" gid="88" x="5088" y="288"/>
+  <object type="wizzard" gid="92" x="216" y="736">
+   <properties>
+    <property name="X" value="357"/>
+    <property name="Y" value="15"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer name="FluffTiles" width="384" height="32">
   <data encoding="csv">
